@@ -609,6 +609,8 @@
 <wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.127" layer="21"/>
 <wire x1="1" y1="-0.625" x2="1" y2="0.625" width="0.127" layer="21"/>
 <wire x1="1" y1="0.625" x2="-1" y2="0.625" width="0.127" layer="21"/>
+<text x="-0.9525" y="1.5875" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-0.9525" y="-2.2225" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="1X02_BIG">
 <wire x1="-2.2" y1="1.4" x2="-0.535" y2="1.4" width="0.2032" layer="21"/>
@@ -874,6 +876,103 @@
 <rectangle x1="2.015" y1="-6.9" x2="3.165" y2="-6.6" layer="29"/>
 <rectangle x1="2.015" y1="-7.4" x2="3.165" y2="-7.1" layer="29"/>
 <rectangle x1="2.015" y1="-7.9" x2="3.165" y2="-7.6" layer="29"/>
+</package>
+<package name="SMORES_BRUSHES_PAD">
+<smd name="P$1" x="0" y="0" dx="3.1" dy="1.9" layer="1" rot="R90"/>
+</package>
+<package name="SMORES_BRUSHES_PAD_BIG">
+<smd name="P$1" x="0" y="0" dx="5.8" dy="3.5" layer="1" rot="R90"/>
+</package>
+<package name="AXN320038S">
+<wire x1="5.56" y1="-3" x2="-5.56" y2="-3" width="0.01" layer="21"/>
+<wire x1="-5.56" y1="-3" x2="-5.56" y2="3" width="0.01" layer="21"/>
+<wire x1="-5.56" y1="3" x2="5.56" y2="3" width="0.01" layer="21"/>
+<wire x1="5.56" y1="3" x2="5.56" y2="-3" width="0.01" layer="21"/>
+<smd name="2" x="3.6" y="-2.425" dx="1.53" dy="0.5" layer="1" rot="R270"/>
+<smd name="4" x="2.8" y="-2.425" dx="1.53" dy="0.5" layer="1" rot="R270"/>
+<smd name="6" x="2" y="-2.425" dx="1.53" dy="0.5" layer="1" rot="R270"/>
+<smd name="10" x="0.4" y="-2.425" dx="1.53" dy="0.5" layer="1" rot="R270"/>
+<smd name="8" x="1.2" y="-2.425" dx="1.53" dy="0.5" layer="1" rot="R270"/>
+<smd name="12" x="-0.4" y="-2.425" dx="1.53" dy="0.5" layer="1" rot="R270"/>
+<smd name="20" x="-3.6" y="-2.425" dx="1.53" dy="0.5" layer="1" rot="R270"/>
+<smd name="14" x="-1.2" y="-2.425" dx="1.53" dy="0.5" layer="1" rot="R270"/>
+<smd name="16" x="-2" y="-2.425" dx="1.53" dy="0.5" layer="1" rot="R270"/>
+<smd name="18" x="-2.8" y="-2.425" dx="1.53" dy="0.5" layer="1" rot="R270"/>
+<smd name="19" x="-3.6" y="2.425" dx="1.53" dy="0.5" layer="1" rot="R90"/>
+<smd name="17" x="-2.8" y="2.425" dx="1.53" dy="0.5" layer="1" rot="R90"/>
+<smd name="15" x="-2" y="2.425" dx="1.53" dy="0.5" layer="1" rot="R90"/>
+<smd name="11" x="-0.4" y="2.425" dx="1.53" dy="0.5" layer="1" rot="R90"/>
+<smd name="13" x="-1.2" y="2.425" dx="1.53" dy="0.5" layer="1" rot="R90"/>
+<smd name="9" x="0.4" y="2.425" dx="1.53" dy="0.5" layer="1" rot="R90"/>
+<smd name="1" x="3.6" y="2.425" dx="1.53" dy="0.5" layer="1" rot="R90"/>
+<smd name="7" x="1.2" y="2.425" dx="1.53" dy="0.5" layer="1" rot="R90"/>
+<smd name="5" x="2" y="2.425" dx="1.53" dy="0.5" layer="1" rot="R90"/>
+<smd name="3" x="2.8" y="2.425" dx="1.53" dy="0.5" layer="1" rot="R90"/>
+<hole x="4.75" y="-1.95" drill="0.8"/>
+<hole x="-4.75" y="-1.95" drill="0.8"/>
+</package>
+<package name="AXN420330S">
+<wire x1="-5.56" y1="3" x2="5.56" y2="3" width="0.01" layer="21"/>
+<wire x1="5.56" y1="3" x2="5.56" y2="-3" width="0.01" layer="21"/>
+<wire x1="5.56" y1="-3" x2="-5.56" y2="-3" width="0.01" layer="21"/>
+<wire x1="-5.56" y1="-3" x2="-5.56" y2="3" width="0.01" layer="21"/>
+<smd name="2" x="-3.6" y="2.95" dx="1.45" dy="0.5" layer="1" rot="R90"/>
+<smd name="4" x="-2.8" y="2.95" dx="1.45" dy="0.5" layer="1" rot="R90"/>
+<smd name="6" x="-2" y="2.95" dx="1.45" dy="0.5" layer="1" rot="R90"/>
+<smd name="10" x="-0.4" y="2.95" dx="1.45" dy="0.5" layer="1" rot="R90"/>
+<smd name="8" x="-1.2" y="2.95" dx="1.45" dy="0.5" layer="1" rot="R90"/>
+<smd name="12" x="0.4" y="2.95" dx="1.45" dy="0.5" layer="1" rot="R90"/>
+<smd name="20" x="3.6" y="2.95" dx="1.45" dy="0.5" layer="1" rot="R90"/>
+<smd name="14" x="1.2" y="2.95" dx="1.45" dy="0.5" layer="1" rot="R90"/>
+<smd name="16" x="2" y="2.95" dx="1.45" dy="0.5" layer="1" rot="R90"/>
+<smd name="18" x="2.8" y="2.95" dx="1.45" dy="0.5" layer="1" rot="R90"/>
+<smd name="19" x="3.6" y="-2.95" dx="1.45" dy="0.5" layer="1" rot="R270"/>
+<smd name="17" x="2.8" y="-2.95" dx="1.45" dy="0.5" layer="1" rot="R270"/>
+<smd name="15" x="2" y="-2.95" dx="1.45" dy="0.5" layer="1" rot="R270"/>
+<smd name="11" x="0.4" y="-2.95" dx="1.45" dy="0.5" layer="1" rot="R270"/>
+<smd name="13" x="1.2" y="-2.95" dx="1.45" dy="0.5" layer="1" rot="R270"/>
+<smd name="9" x="-0.4" y="-2.95" dx="1.45" dy="0.5" layer="1" rot="R270"/>
+<smd name="1" x="-3.6" y="-2.95" dx="1.45" dy="0.5" layer="1" rot="R270"/>
+<smd name="7" x="-1.2" y="-2.95" dx="1.45" dy="0.5" layer="1" rot="R270"/>
+<smd name="5" x="-2" y="-2.95" dx="1.45" dy="0.5" layer="1" rot="R270"/>
+<smd name="3" x="-2.8" y="-2.95" dx="1.45" dy="0.5" layer="1" rot="R270"/>
+<hole x="-4.75" y="1.95" drill="0.9"/>
+<hole x="4.75" y="1.95" drill="0.9"/>
+</package>
+<package name="1VIA(0_8MM)">
+<pad name="P$1" x="0" y="0" drill="0.8"/>
+<text x="0" y="1.27" size="0.6096" layer="25">&gt;NAME</text>
+<text x="0" y="-1.27" size="0.6096" layer="27">&gt;VALUE</text>
+</package>
+<package name="DF40C-20DP-0.4V(51)">
+<smd name="P$1" x="-1.8" y="1.355" dx="0.23" dy="0.66" layer="1" rot="R180"/>
+<smd name="P$2" x="-1.8" y="-1.355" dx="0.23" dy="0.66" layer="1"/>
+<smd name="P$3" x="-1.4" y="1.355" dx="0.23" dy="0.66" layer="1"/>
+<smd name="P$4" x="-1.4" y="-1.355" dx="0.23" dy="0.66" layer="1"/>
+<smd name="P$5" x="-1" y="1.355" dx="0.23" dy="0.66" layer="1"/>
+<smd name="P$6" x="-1" y="-1.355" dx="0.23" dy="0.66" layer="1"/>
+<smd name="P$7" x="-0.6" y="1.355" dx="0.23" dy="0.66" layer="1"/>
+<smd name="P$8" x="-0.6" y="-1.355" dx="0.23" dy="0.66" layer="1"/>
+<smd name="P$9" x="-0.2" y="1.355" dx="0.23" dy="0.66" layer="1"/>
+<smd name="P$10" x="-0.2" y="-1.355" dx="0.23" dy="0.66" layer="1"/>
+<smd name="P$11" x="0.2" y="1.355" dx="0.23" dy="0.66" layer="1"/>
+<smd name="P$12" x="0.2" y="-1.355" dx="0.23" dy="0.66" layer="1"/>
+<smd name="P$13" x="0.6" y="1.355" dx="0.23" dy="0.66" layer="1"/>
+<smd name="P$14" x="0.6" y="-1.355" dx="0.23" dy="0.66" layer="1"/>
+<smd name="P$15" x="1" y="1.355" dx="0.23" dy="0.66" layer="1"/>
+<smd name="P$16" x="1" y="-1.355" dx="0.23" dy="0.66" layer="1"/>
+<smd name="P$17" x="1.4" y="1.355" dx="0.23" dy="0.66" layer="1"/>
+<smd name="P$18" x="1.4" y="-1.355" dx="0.23" dy="0.66" layer="1"/>
+<smd name="P$19" x="1.8" y="1.355" dx="0.23" dy="0.66" layer="1"/>
+<smd name="P$20" x="1.8" y="-1.355" dx="0.23" dy="0.66" layer="1"/>
+<smd name="P$21" x="-2.275" y="1.355" dx="0.35" dy="0.66" layer="1"/>
+<smd name="P$22" x="-2.275" y="-1.355" dx="0.35" dy="0.66" layer="1"/>
+<smd name="P$23" x="2.275" y="1.355" dx="0.35" dy="0.66" layer="1"/>
+<smd name="P$24" x="2.275" y="-1.355" dx="0.35" dy="0.66" layer="1"/>
+<wire x1="-2.76" y1="0.925" x2="-2.76" y2="-0.925" width="0.127" layer="21"/>
+<wire x1="2.76" y1="0.925" x2="2.76" y2="-0.925" width="0.127" layer="21"/>
+<wire x1="-2.76" y1="0.925" x2="2.76" y2="0.925" width="0.127" layer="21"/>
+<wire x1="2.76" y1="-0.925" x2="-2.76" y2="-0.925" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -2170,6 +2269,153 @@
 <connect gate="-7" pin="MS" pad="7"/>
 <connect gate="-8" pin="MS" pad="8"/>
 <connect gate="-9" pin="MS" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SMORES_BURSHES_PAD">
+<gates>
+<gate name="G$1" symbol="1PAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SMORES_BRUSHES_PAD">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SMORES_BRUSHES_PAD_BIG">
+<gates>
+<gate name="G$1" symbol="1PAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SMORES_BRUSHES_PAD_BIG">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AXN320038S">
+<gates>
+<gate name="G$1" symbol="20-POS-HEADER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="AXN320038S">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AXN420330S">
+<gates>
+<gate name="G$1" symbol="20-POS-HEADER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="AXN420330S">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1VIA(0_8MM)">
+<gates>
+<gate name="G$1" symbol="M01" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1VIA(0_8MM)">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DF40C-20DP-0.4V(51)">
+<gates>
+<gate name="G$1" symbol="20-POS-HEADER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DF40C-20DP-0.4V(51)">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="10" pad="P$10"/>
+<connect gate="G$1" pin="11" pad="P$11"/>
+<connect gate="G$1" pin="12" pad="P$12"/>
+<connect gate="G$1" pin="13" pad="P$13"/>
+<connect gate="G$1" pin="14" pad="P$14"/>
+<connect gate="G$1" pin="15" pad="P$15"/>
+<connect gate="G$1" pin="16" pad="P$16"/>
+<connect gate="G$1" pin="17" pad="P$17"/>
+<connect gate="G$1" pin="18" pad="P$18"/>
+<connect gate="G$1" pin="19" pad="P$19"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="20" pad="P$20"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="4" pad="P$4"/>
+<connect gate="G$1" pin="5" pad="P$5"/>
+<connect gate="G$1" pin="6" pad="P$6"/>
+<connect gate="G$1" pin="7" pad="P$7"/>
+<connect gate="G$1" pin="8" pad="P$8"/>
+<connect gate="G$1" pin="9" pad="P$9"/>
 </connects>
 <technologies>
 <technology name=""/>
